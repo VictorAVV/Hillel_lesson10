@@ -37,4 +37,5 @@ class Geometry
     }
 }
 
-echo "When radius = 10, volume of sphere = " . Geometry::getSphereVolume(10);
+$myRadius = 10;
+echo "When radius = $myRadius, volume of sphere = " . Geometry::getSphereVolume($myRadius);
